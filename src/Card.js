@@ -1,13 +1,13 @@
 import React from "react";
-const Card = () => {
-    return (
-        <div className="bg-light-purple dib br3 pa3 ma2 grow">
-            <img src="https://randomoutputs.com/assets/images/tools/faces/rgedofrx.webp" alts="people" />
-            <div>
-                <h2>CoopsWin</h2>
-                <p>coopswin@gmail.com</p>
-            </div>
-        </div>
-    );
-}
+const Card = ({ name, email, id }) => {
+  return (
+    <div className="tc bg-light-pink dib br3 pa3 ma2 grow bw2 shadow-5">
+      <img src={`https://robohash.org/${id}?200x200`} alt="people" />
+      <div>
+        <h2>{name}</h2>
+        <p>{email}</p>
+      </div>
+    </div>
+  );
+};
 export default Card;
