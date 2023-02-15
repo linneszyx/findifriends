@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/findifriends/static/css/main.5661d43c.css",
+    "main.js": "/findifriends/static/js/main.b7f96794.js",
+    "static/media/Mamba Ice Cream 1.woff": "/findifriends/static/media/Mamba Ice Cream 1.2f1118f32ad414c791e2.woff",
+    "index.html": "/findifriends/index.html",
+    "main.5661d43c.css.map": "/findifriends/static/css/main.5661d43c.css.map",
+    "main.b7f96794.js.map": "/findifriends/static/js/main.b7f96794.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5661d43c.css",
+    "static/js/main.b7f96794.js"
+  ]
+}
