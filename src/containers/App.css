@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Mamba Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mamba Regular'), url('Mamba Ice Cream 1.woff') format('woff');
+    }
+    h1{
+        font-family: 'Mamba Regular';   
+        font-weight: 200;
+        color:#f1d277;
+    }

@@ -58,5 +58,17 @@ export const people = [
     name: 'Khalidkj',
     username: 'hiolkmzl',
     email: 'hocoikeiteno-5852@yopmail.com',
+  },
+  {
+    id:901,
+    name:'Heroixk',
+    username:'xjckdf',
+    email:'siouxc@yomail.com'
+  },
+  {
+    id:892,
+    name : 'Justin',
+    username:'jus',
+    email:'justinxm@yomail.com'
   }
 ];
