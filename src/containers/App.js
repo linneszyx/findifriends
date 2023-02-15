@@ -13,12 +13,9 @@ class App extends Component {
     };
   }
   componentDidMount() {
-   for(let i=0;i<20;i++){
-
      fetch("https://jsonplaceholder.typicode.com/users")
        .then((response) => response.json())
        .then((user) => this.setState({ people: user }));
-   }
   }
   onSearchChange = (event) => {
     this.setState({ searchfield: event.target.value });
